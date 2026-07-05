@@ -1,0 +1,33 @@
+# Python packages installed locally for Lambda zip
+lambdas/ingestor/*.dist-info/
+lambdas/ingestor/boto3/
+lambdas/ingestor/botocore/
+lambdas/ingestor/google/
+lambdas/ingestor/jmespath/
+lambdas/ingestor/s3transfer/
+lambdas/ingestor/six.py
+lambdas/ingestor/urllib3/
+lambdas/ingestor/dateutil/
+lambdas/ingestor/bin/
+lambdas/api/*.dist-info/
+lambdas/api/boto3/
+lambdas/api/botocore/
+lambdas/api/jmespath/
+lambdas/api/s3transfer/
+lambdas/api/urllib3/
+lambdas/api/dateutil/
+lambdas/streams/*.dist-info/
+lambdas/streams/boto3/
+lambdas/streams/botocore/
+
+# Terraform
+terraform/.terraform/
+terraform/build/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
